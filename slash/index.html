@@ -7,6 +7,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>SLASH</title>
 </head>
 <body>
@@ -24,10 +26,9 @@
     </header>
 
 
-    <section class="home" id="home">    
+    <section class="home" id="home" data-aos="fade-right">    
         <div class="home-content">
-            <h1 style="    font-family: poster-bodoni-compressed; font-size: 40rem;
-            ">Slash</h1>
+            <h1 data-aos="fade-up" style="font-family: poster-bodoni-compressed; font-size: 40rem;" >Slash</h1>
             <h2>El mejor guitarrista de la historia : </h2>
             <p>“Pensé que no había nada más que sexo ...<span> hasta que tocaba la guitarra</span>”</p>
 
@@ -45,12 +46,12 @@
 
     <section class="about" id="about">
 
-        <div class="about-img">
+        <div class="about-img" data-aos="fade-right">
             <img src="img/home-img.png" alt="" style="    filter: drop-shadow(0 0 5px #c4a000);
             ">
         </div>
 
-        <div class="about-content">
+        <div class="about-content" data-aos="fade-left">
             <h2 class="heading">About <span>slash</span></h2>
             <h3>Guns 'n Roses</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nostrum consectetur asperiores! Alias quae, dignissimos sequi, culpa excepturi magni doloremque rem dolore odit labore in explicabo laborum itaque deserunt expedita!</p>
@@ -62,50 +63,50 @@
 
         <div class="music-container">
             
-            <div class="music-box" id="m1">
+            <div class="music-box" id="m1" data-aos="flip-left">
                 <i class='bx bxs-disc' style='color:#ffffff'  ></i>
                 <h2>Live ?!*@ Like a Suicide</h2>
                 <p>1986</p>
             </div>
 
-            <div class="music-box" id="m2">
+            <div class="music-box" id="m2" data-aos="flip-left">
                 <i class='bx bxs-disc' style='color:#ffffff'  ></i>
                 <h2>Appetite for Destruction</h2>
                 <p>1987</p>
             </div>
 
-            <div class="music-box" id="m3">
+            <div class="music-box" id="m3"data-aos="flip-left">
                 <i class='bx bxs-disc' style='color:#ffffff'  ></i>
                 <h2>G N' R Lies</h2>
                 <p>1988</p>
             </div>
 
-            <div class="music-box" id="m4">
+            <div class="music-box" id="m4" data-aos="flip-left">
                 <i class='bx bxs-disc' style='color:#ffffff'  ></i>
                 <h2>Use Your Illusion I</h2>
                 <p>1991</p>
             </div>
-            <div class="music-box" id="m5">
+            <div class="music-box" id="m5" data-aos="flip-left">
                 <i class='bx bxs-disc' style='color:#ffffff'  ></i>
                 <h2>Use Your Illusion II</h2>
                 <p>1991</p>
             </div>
-            <div class="music-box" id="m6">
+            <div class="music-box" id="m6" data-aos="flip-left">
                 <i class='bx bxs-disc' style='color:#ffffff'  ></i>
                 <h2>The Spaghetti Incident?</h2>
                 <p>1993</p>
             </div>
-            <div class="music-box" id="m7">
+            <div class="music-box" id="m7" data-aos="flip-left">
                 <i class='bx bxs-disc' style='color:#ffffff'  ></i>
                 <h2>Live Era: 87-93</h2>
                 <p>1999</p>
             </div>
-            <div class="music-box" id="m8">
+            <div class="music-box" id="m8" data-aos="flip-left">
                 <i class='bx bxs-disc' style='color:#ffffff'  ></i>
                 <h2>Greatest Hits</h2>
                 <p>2004</p>
             </div>
-            <div class="music-box" id="m9">
+            <div class="music-box" id="m9" data-aos="flip-left">
                 <i class='bx bxs-disc' style='color:#ffffff'  ></i>
                 <h2>Chinese Democracy</h2>
                 <p>2008</p>
@@ -115,13 +116,13 @@
     </section>
     <section class="guitar" id="guitar">
 
-        <div class="guitar-content">
+        <div class="guitar-content" data-aos="fade-right">
             <h2 class="heading">Guitar </h2>
             <h3> <span>Gibson Les Paul </span> </h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nostrum consectetur asperiores! Alias quae, dignissimos sequi, culpa excepturi magni doloremque rem dolore odit labore in explicabo laborum itaque deserunt expedita!</p>
         </div>
         
-        <div class="guitar-img">
+        <div class="guitar-img" data-aos="fade-left">
             <img src="img/home-img.png" alt="">
         </div>
 
@@ -152,5 +153,9 @@
         </div>
     </footer>
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
