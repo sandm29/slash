@@ -504,6 +504,21 @@ textarea{
         margin: 3rem 0;
     }
 
-
+    .home{
+    flex-direction:column;
+    }
+    
+    .home-img img{
+    width:70vw;
+    margin-top:4rem;
+    }
+    .about{
+    flex-direction:column-reverse ;
+    }
+    
+    .about img{
+    width:70vw;
+    margin-top:4rem;
+    }
 }
 
